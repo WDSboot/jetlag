@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'HoneySalt';
+    src: url('fonts/HoneySalt.otf') format('opentype');
+}
+div.cardcontainer {
+    width: 210mm;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+div.card {
+    height: 88mm;
+    width: 58mm;
+    border: 1px solid #000;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+img.icon {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+h2 {
+    font-family: 'HoneySalt';
+    text-align: center;
+    margin-bottom: 5px;
+    flex-shrink: 0;
+}
+p {
+    font-family: 'HoneySalt';
+    text-align: center;
+    flex-grow: 1;
+    padding: 1px;
+    outline-offset:2px;
+}
+.endofpage {
+    height: 180px;
+}
